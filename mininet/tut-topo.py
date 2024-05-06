@@ -31,6 +31,7 @@ from mininet.net import Mininet
 from mininet.topo import Topo
 from mininet.log import setLogLevel, info
 from mininet.cli import CLI
+from mininet.node import OVSSwitch
 
 from p4_mininet import P4Switch, P4Host
 
